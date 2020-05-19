@@ -18,7 +18,6 @@ repositories {
 }
 
 checkerFramework {
-    skipVersionCheck = true
     checkers = ['org.checkerframework.checker.objectconstruction.ObjectConstructionChecker']
     extraJavacArgs = ['-AsuppressWarnings=type.anno.before']
 }
