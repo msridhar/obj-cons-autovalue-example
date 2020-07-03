@@ -9,7 +9,7 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
-    id "org.checkerframework" version "0.5.1"
+    id "org.checkerframework" version "0.5.5"
 }
 
 repositories {
